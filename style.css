@@ -1,0 +1,168 @@
+body{
+    color: rgb(235, 226, 226);
+    font-size: 32px;
+    }
+
+    .brand {
+      font-weight: bold;
+      font-size: 20px; 
+    }
+     
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      a:hover{ text-decoration: none;}
+        
+      li {
+        float: left;
+      }
+      
+       li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 20px;
+        
+      }
+      
+        li a:hover:not(.active) {
+     
+          transition: all 0.5s ease-in;
+        color: #ffffff;
+        
+
+      }
+      
+      .active {
+        color: #ffffff;  
+        transition: all 0.5s ease-in;
+
+      }
+      
+      .container{
+        margin: auto;
+        margin-top: 100px;
+        /* border: 3px solid black; */
+    }
+    .col-md-, .col-lg-4{
+        margin-bottom: 20px;
+    }
+    .sty{
+        font-size: 18px !important;
+        color: black !important;
+    }
+    .num{
+        width: 80px;
+        height: 30px;
+        border: 3px solid black;
+        border-radius: 5px;
+        font-size: 18px;
+        padding: 5px;
+    }
+    .uk-border-circle{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .fa-cart-arrow-down{
+        color: white;
+        font-size: 50px;
+        cursor: pointer;
+        padding-left: 20px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      color: #494949;
+    }
+    
+    input {
+      font: inherit;
+      border: none;
+      border-bottom: 2px solid #ccc;
+      color: #494949;
+      width: 70% ;
+      display: block;
+      margin: 1rem 0;
+    }
+    
+    input:focus {
+      outline: none;
+      border-color: #001afff3;
+    }
+    
+    button {
+      font: inherit;
+      border: 1px solid #001afff3;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      background: #001afff3;
+      cursor: pointer;
+    }
+    
+    button:focus {
+      outline: none;
+    }
+    
+    button:hover,
+    button:active {
+      background: #001afff3;
+      border-color: #001afff3;
+    }
+    .card {
+      padding: 1rem;
+      border-radius: 10px;
+      
+      }
+    
+    .inline-controls {
+      display:block;
+    }
+    
+    .control {
+      margin: 1rem;
+    }
+    
+    #user-input,
+    #movie-list,
+    #filter {
+      width: 50rem;
+      max-width: 90%;
+      margin: 2rem auto;
+    }
+    
+    #movie-list {
+      display: none;
+      list-style: none;
+      padding: 1rem;
+    }
+    
+    #movie-list.visible {
+      display: block;
+    }
+    
+    #movie-list li {
+      margin: 1rem;
+      color: #001afff3;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    payment{
+      width: 100%;
+      margin: auto 0;
+      align-content: center;
+      margin-top: 10%;
+    }
+    footer{
+      width: 100%;
+      background-color: black;
+      height: auto;
+      margin-top: 10%;
+      align-content: center;
+    }
+    
+     
